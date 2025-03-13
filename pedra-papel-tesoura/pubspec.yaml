@@ -1,0 +1,30 @@
+name: pedra_papel_tesoura
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/padrao.png
+    - assets/images/pedra.png
+    - assets/images/papel.png
+    - assets/images/tesoura.png
+    - assets/images/venceu.png
+    - assets/images/perdeu.png
+    - assets/images/empate.png
